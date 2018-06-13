@@ -116,7 +116,7 @@ body{
 .video .textovideo > button{
     background-color: rgb(83, 198, 94);
     border-radius: 10%;
-    padding: 15px;
+    padding: 14px;
     border: none;
     color: white;
     
@@ -144,11 +144,8 @@ body{
 .ultima .fotos > img{
     padding-right: 5px;
     padding-bottom: 5px;
+}
 
-}
-.ultima .fotos > img:hover{
-    
-}
 .ultima .hi{
     text-align: center;
 }
