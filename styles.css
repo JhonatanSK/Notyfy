@@ -13,10 +13,14 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 350px;
+
+    margin-bottom: 30px;
 }
 
 .banner > div{
     width: 400px;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .banner h1{
@@ -57,6 +61,121 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 100%;
 }
+.meio .icones2 div h3{
+    /* width: 400px; */
+    text-align: center
+}
+.meio .icones2 > div{
+    margin-left: 30px;
+   
+    margin-right: 30px;
+}
+.meio .icones2 div p{
+    color: rgb(172,172,172);
+    text-align: center;
+    
+}
+.meio .icones2 div > img:nth-child(1){
+    border-radius: 100%;
+    padding: 20px;
+    background-color: rgb(83, 198, 94);
+    margin-left: 35%;
+}
+.meio .icones2 div > img:nth-child(2){
+    border-radius: 100%;
+    background-color: rgb(83, 198, 94);
+    padding: 20px;
+    margin-left: 100px;
+}
+.meio .icones2 div > img:nth-child(3){
+    border-radius: 100%;
+    background-color: rgb(83, 198, 94);
+    padding: 20px;
+    margin-left: 100px;
+}
+.video{
+    background-color:rgb(227,227,227);
+    padding: 30px;
+}
+.video .textovideo > p{
+    color: rgb(156, 154, 154);
+}
+.video .notify{
+    width: 280px;
+    height: 200px;
+    padding-left: 20px;
+    
+}
+.video .textovideo > input{
+    border-radius: 10%;
+    color: rgb(172,172,172);
+    width: 250px;
+    height: 40px;
+    border: none;
+}
+.video .textovideo > button{
+    background-color: rgb(83, 198, 94);
+    border-radius: 10%;
+    padding: 15px;
+    border: none;
+    color: white;
+    
+}
+.ultima{
+    margin-bottom: 60px;
+}
+.ultima > p{
+ color: rgb(172,172,172);
+ text-align: center;
+ font-style: italic;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.ultima > h5{
+    text-align: center;
+    font-size: 18px;
+}
+.ultima .fotos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ultima .fotos > img{
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+}
+.ultima .fotos > img:hover{
+    
+}
+.ultima .hi{
+    text-align: center;
+}
+.ultima .hi > h3{
+    font-size: 22px;
+}
+.ultima .hi > p{
+    font-size: 18px;
+    color: rgb(172,172,172);
+}
+footer {
+    display: flex;
+    background-color: rgb(227, 227, 227);
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+footer p{
+    color: rgb(172,172,172);
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 
 @media(min-width: 768px){
     .banner{
@@ -66,6 +185,16 @@ body{
 
     .banner > img{
         display: block;
+    }
+    .meio .icones2{
+        display: flex;
+    }
+    .video{
+        display: flex;
+    }
+    .video .notify{
+        padding-left: 80px;
+        padding-right: 100px;
     }
 
 }
@@ -79,5 +208,26 @@ body{
     .banner > img{
         width: 350px;
         display: block;
+    }
+    .meio .icones2{
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    .meio .icones2 > div{
+        margin-left: 60px;
+       
+        margin-right: 60px;
+    }
+    .video{
+        display: flex;
+    }
+    .video .textovideo{
+        margin-left: 100px;
+    }
+    .video .notify{
+        padding-left: 300px;
+        padding-right: 200px;
     }
 }
